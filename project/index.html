@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Fundamentals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">WebFundamentals</div>
+          <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hero">
+          <div class="hero-content">
+            <h1 class="hero-title">Learn Web Development</h1>
+            <p class="hero-subtitle">Master HTML, CSS, and JavaScript with hands-on examples</p>
+            <button id="get-started" class="btn btn-primary">Get Started</button>
+          </div>
+          <div class="hero-image">
+            <img src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Web Development" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title">About Web Development</h2>
+          <div class="cards">
+            <div class="card" id="html-card">
+              <div class="card-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Icon" />
+              </div>
+              <h3 class="card-title">HTML</h3>
+              <p class="card-text">HTML is the standard markup language for creating web pages and web applications.</p>
+              <button class="btn btn-secondary learn-more" data-topic="html">Learn More</button>
+            </div>
+
+            <div class="card" id="css-card">
+              <div class="card-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Icon" />
+              </div>
+              <h3 class="card-title">CSS</h3>
+              <p class="card-text">CSS is a style sheet language used for describing the presentation of a document.</p>
+              <button class="btn btn-secondary learn-more" data-topic="css">Learn More</button>
+            </div>
+
+            <div class="card" id="js-card">
+              <div class="card-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Icon" />
+              </div>
+              <h3 class="card-title">JavaScript</h3>
+              <p class="card-text">JavaScript is a programming language that enables interactive web pages.</p>
+              <button class="btn btn-secondary learn-more" data-topic="javascript">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Gallery</h2>
+          <div class="gallery">
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Code on screen" />
+              <div class="gallery-caption">Writing clean code</div>
+            </div>
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Web design" />
+              <div class="gallery-caption">Designing interfaces</div>
+            </div>
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/7988079/pexels-photo-7988079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Code collaboration" />
+              <div class="gallery-caption">Collaborating on projects</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2 class="section-title">Contact Us</h2>
+          <div class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Your email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Your message"></textarea>
+            </div>
+            <button id="submit-form" class="btn btn-primary">Send Message</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 WebFundamentals. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">Twitter</a>
+          <a href="#" class="social-link">GitHub</a>
+          <a href="#" class="social-link">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
