@@ -1,2 +1,1 @@
-# APEXPLANET-INTERNSHIP
-THIS REPOSITORY CONTAINS ALL THE TASKS PERFORMED IN THE INTERNSHIP.
+Learn and apply foundational HTML, CSS, and JavaScript skills to create interactive web pages.
